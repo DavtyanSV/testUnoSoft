@@ -1,0 +1,25 @@
+
+`
+java:S2184S"CCast one of the operands of this subtraction operation to a "long".(²«ΐ8ά”κδ‚2
+`
+java:S2184b"CCast one of the operands of this subtraction operation to a "long".(²«ΐ8ά”κδ‚2
+`
+java:S2184g"CCast one of the operands of this subtraction operation to a "long".(²«ΐ8ά”κδ‚2
+{	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ΙΣΩ©όÿÿÿÿ8Φ•κδ‚2
+^
+java:S1075"ARefactor your code to get this URI from a customizable parameter.(τ£ψο8Ω•κδ‚2
+L	java:S106&"+Replace this use of System.out by a logger.(·‘Ύϋÿÿÿÿ8ί•κδ‚2
+L	java:S106:"+Replace this use of System.out by a logger.(©ώκάϊÿÿÿÿ8β•κδ‚2
+L	java:S106;"+Replace this use of System.out by a logger.(γν†όÿÿÿÿ8β•κδ‚2
+L	java:S106}"+Replace this use of System.out by a logger.(©ώκάϊÿÿÿÿ8μ•κδ‚2
+L	java:S106~"+Replace this use of System.out by a logger.(”ρΚΪψÿÿÿÿ8ξ•κδ‚2
+t
+java:S3457‡"Q%n should be used in place of \n to produce the platform-specific line separator.( µβ΄όÿÿÿÿ8π•κδ‚2
+M	java:S106"+Replace this use of System.out by a logger.(©ώκάϊÿÿÿÿ8ρ•κδ‚2
+M	java:S106"+Replace this use of System.out by a logger.(οΑΉΊϋÿÿÿÿ8ρ•κδ‚2
+M	java:S106"+Replace this use of System.out by a logger.(©ώκάϊÿÿÿÿ8ρ•κδ‚2
+H	java:S106"+Replace this use of System.out by a logger.(‹»‚8ς•κδ‚2
+R
+java:S1128"0Remove this unused import 'java.time.LocalTime'.(ΰ®ψΓωÿÿÿÿ8ϊΙ‚ε‚2
+W
+java:S1128":Remove this unused import 'java.time.temporal.ChronoUnit'.(Α…§8όΙ‚ε‚2
