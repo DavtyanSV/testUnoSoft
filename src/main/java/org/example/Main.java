@@ -15,7 +15,6 @@ import java.util.stream.Stream;
 
 public class Main {
 
-  static volatile boolean check = true;
   static Set<Long[]> mainFilteredSet = new LinkedHashSet<>();
   static Set<Map<Long, Set<Long[]>>> result = new LinkedHashSet<>();
   static int maxAmountElementsOfLine = 0;
@@ -24,6 +23,11 @@ public class Main {
   static final Pattern pattern = Pattern.compile(regex);
 
   public static void main(String[] args) {
+
+    long startTime = System.currentTimeMillis();
+    System.out.println("Start program");
+
+
     if (args.length > 0) {
       pathToFile = args[0];
     }
@@ -37,6 +41,13 @@ public class Main {
     } else {
       System.out.println("файл пуст или неправильный формат данных");
     }
+
+    System.out.printf("Count groups: %d%n", takeQuantityOfGroups());
+
+    long end = System.currentTimeMillis();
+    long resultTime = end-startTime;
+    System.out.printf("Time of the programm to complete: %d ms ", resultTime);
+
     }
 
   public static Set<Long[]> readFile(String pathToFile, Pattern pattern) {
